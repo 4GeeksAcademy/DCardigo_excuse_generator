@@ -1,1 +1,131 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Oleo+Script&display=swap");
+
+h1 {
+  /*font-family: "Instrument Serif", serif;*/
+  font-family: "Oleo Script", cursive;
+  padding-top: 40px;
+  text-shadow: rgb(255, 166, 2) -2px 2px, rgb(255, 0, 0) -3px 3px,
+    rgb(162, 0, 255) -4px 4px, rgb(0, 110, 255) -5px 5px,
+    rgb(51, 255, 61) -6px 6px;
+  color: rgb(255, 239, 8);
+
+  letter-spacing: 3px;
+  font-size: 150px;
+}
+
+body {
+  /*background-image: radial-gradient(circle, red, yellow, green);*/
+  /*background: radial-gradient(circle, yellow, green);*/
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    rgb(179, 255, 0),
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+
+#excuse {
+  border: 5px solid rgb(8, 158, 228);
+  border-radius: 10px;
+  margin: 80px 400px 0 400px;
+  background-color: aliceblue;
+
+  /* Sombra exterior*/
+  /* -webkit-box-shadow: 10px 7px 45px 12px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 10px 7px 45px 12px rgba(0, 0, 0, 0.71);
+  box-shadow: 10px 7px 45px 12px rgba(0, 0, 0, 0.71); */
+  /* Sombra interior*/
+  -webkit-box-shadow: inset 10px 7px 45px -10px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: inset 10px 7px 45px -10px rgba(0, 0, 0, 0.71);
+  box-shadow: inset 10px 7px 45px -10px rgba(0, 0, 0, 0.71);
+
+  padding: 10px;
+  height: 100px;
+  font-size: 25px;
+}
+
+#btn-volumen {
+  margin-top: 40px;
+  display: inline-block;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Oleo Script", cursive;
+  color: aliceblue;
+  font-style: unset;
+
+  /*Background-color*/
+
+  background: rgba(206, 55, 44, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(206, 55, 44, 1) 0%,
+    rgba(222, 200, 89, 1) 16%,
+    rgba(89, 222, 98, 1) 35%,
+    rgba(89, 142, 222, 1) 56%,
+    rgba(200, 89, 222, 1) 78%,
+    rgba(235, 122, 150, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(206, 55, 44, 1)),
+    color-stop(16%, rgba(222, 200, 89, 1)),
+    color-stop(35%, rgba(89, 222, 98, 1)),
+    color-stop(56%, rgba(89, 142, 222, 1)),
+    color-stop(78%, rgba(200, 89, 222, 1)),
+    color-stop(100%, rgba(235, 122, 150, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(206, 55, 44, 1) 0%,
+    rgba(222, 200, 89, 1) 16%,
+    rgba(89, 222, 98, 1) 35%,
+    rgba(89, 142, 222, 1) 56%,
+    rgba(200, 89, 222, 1) 78%,
+    rgba(235, 122, 150, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(206, 55, 44, 1) 0%,
+    rgba(222, 200, 89, 1) 16%,
+    rgba(89, 222, 98, 1) 35%,
+    rgba(89, 142, 222, 1) 56%,
+    rgba(200, 89, 222, 1) 78%,
+    rgba(235, 122, 150, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(206, 55, 44, 1) 0%,
+    rgba(222, 200, 89, 1) 16%,
+    rgba(89, 222, 98, 1) 35%,
+    rgba(89, 142, 222, 1) 56%,
+    rgba(200, 89, 222, 1) 78%,
+    rgba(235, 122, 150, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(206, 55, 44, 1) 0%,
+    rgba(222, 200, 89, 1) 16%,
+    rgba(89, 222, 98, 1) 35%,
+    rgba(89, 142, 222, 1) 56%,
+    rgba(200, 89, 222, 1) 78%,
+    rgba(235, 122, 150, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce372c', endColorstr='#eb7a96', GradientType=1 );
+
+  /* Sombra*/
+  -webkit-box-shadow: 10px 10px 55px 0px rgba(0, 0, 0, 0.95);
+  -moz-box-shadow: 10px 10px 55px 0px rgba(0, 0, 0, 0.95);
+  box-shadow: 10px 10px 55px 0px rgba(0, 0, 0, 0.95);
+  /*Bordes*/
+  border-radius: 121px 121px 121px 121px;
+  -moz-border-radius: 121px 121px 121px 121px;
+  -webkit-border-radius: 121px 121px 121px 121px;
+  border: 0px solid #000000;
+}
